@@ -24,7 +24,7 @@ export class UploadController {
     }
 
     const bucket = getStorage().bucket();
-    const fileName = `uploads/${uuid()}/${file.originalname}`;
+    const fileName = `uploads/${uuid()}-${file.originalname}`;
     const fileUpload = bucket.file(fileName);
     const [exist] = await fileUpload.exists();
     if (exist) {

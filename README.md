@@ -4,7 +4,7 @@ Este projeto demonstra como integrar o **NestJS** com **Firebase Cloud Functions
 
 ## 📹 Vídeo Tutorial
 
-🔗 Assista o vídeo explicativo aqui: []
+🔗 [Assista o vídeo explicativo aqui](https://youtu.be/reyGzjMLZdo)
 
 ## 🚀 Tecnologias Utilizadas
 - **NestJS** - Framework para Node.js
